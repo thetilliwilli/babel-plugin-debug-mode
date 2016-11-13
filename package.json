@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TilliWilli5/babel-plugin-modes.git"
+    "url": "git+https://github.com/TilliWilli5/babel-plugin-debug-mode.git"
   },
   "keywords": [],
   "author": {
@@ -18,8 +18,8 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TilliWilli5/babel-plugin-modes/issues"
+    "url": "https://github.com/TilliWilli5/babel-plugin-debug-mode/issues"
   },
-  "homepage": "https://github.com/TilliWilli5/babel-plugin-modes#readme",
+  "homepage": "https://github.com/TilliWilli5/babel-plugin-debug-mode#readme",
   "devDependencies": {}
 }
