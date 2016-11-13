@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-debug-mode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,5 @@
     "url": "https://github.com/TilliWilli5/babel-plugin-modes/issues"
   },
   "homepage": "https://github.com/TilliWilli5/babel-plugin-modes#readme",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
