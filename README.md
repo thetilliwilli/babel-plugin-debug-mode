@@ -5,7 +5,7 @@
 ### Installation
 
 ```
-npm install babel-plugin-debug-mode
+npm install babel-plugin-debug-mode --save-dev
 ```
 ### Your code
 You define code snippet inside block statement with "debug" directive like this
@@ -40,7 +40,7 @@ or like this
     "plugins": ["debug-mode"]
 }
 ```
-Turn **debug on** - blocks will be retained untouched
+Turn **debug on** - blocks will retain untouched
 ```
 {
     "plugins": [["debug-mode", "on"]]
