@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-debug-mode",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/TilliWilli5/babel-plugin-debug-mode.git"
   },
-  "keywords": ["babel", "plugin", "debug", "javascript", "js", "compiler", "babel-plugin", "dev", "dev tools"],
+  "keywords": [
+    "babel",
+    "plugin",
+    "debug",
+    "javascript",
+    "js",
+    "compiler",
+    "babel-plugin",
+    "dev",
+    "dev tools"
+  ],
   "author": {
     "name": "TilliWilli",
     "email": "tilliwilli@gmail.com",
