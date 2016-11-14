@@ -1,12 +1,17 @@
 "use strict";
-
 function HasDebugDirective(pPath){
-    // console.log("pPath.node.body[0] " + pPath.node.body[0]);
-    // if(!pPath.node.body[0])
-    //     return false;
-    if(pPath.node.body[0] && pPath.node.body[0].type == "ExpressionStatement" && pPath.node.body[0].expression.type == "StringLiteral")
-        if(pPath.node.body[0].expression.value == "debug")
-            return true;
+    if(pPath.node.type == "BlockStatement")
+    {
+        if(pPath.node.body[0] && pPath.node.body[0].type == "ExpressionStatement" && pPath.node.body[0].expression.type == "StringLiteral")
+            if(pPath.node.body[0].expression.value == "debug")
+                return true;
+    }
+    else
+    {
+        for(let derictive of pPath.node.body.directives)
+            if(derictive.value.value == "debug")
+                return true;
+    }
     return false;
 }
 function Decider(pPath, pState){
@@ -21,7 +26,7 @@ function Decider(pPath, pState){
 function Plugin(){
     return {
         visitor:{
-            BlockStatement: Decider
+            "BlockStatement|ClassMethod": Decider
         }
     };
 }

@@ -46,3 +46,8 @@ Turn **debug on** - blocks will retain untouched
     "plugins": [["debug-mode", "on"]]
 }
 ```
+### Feedback
+
+Any feedback is highly appreciated (https://github.com/TilliWilli5 , tilliwilli@gmail.com)
+
+Benice guys;)
