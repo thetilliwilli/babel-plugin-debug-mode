@@ -1,6 +1,6 @@
 # **Debug mode**
 
->where dreams come true
+>Stay debugged
 
 ### Installation
 
@@ -25,6 +25,17 @@ theInput.onkeydown = (pEvent)=>{
         	pEvent.preventDefault();
     }
     //rest stuff
+}
+```
+Inside Class Method definition
+```
+class Delegate
+{
+    ...
+    WriteDebugInfo(pWho, pMethod){
+        "debug";
+        console.debug(`%c\t\u27A5${pWho.constructor.name}(${pMethod})`, "color:ForestGreen;font-size:1em;");
+    }
 }
 ```
 ### Setup for .babelrc

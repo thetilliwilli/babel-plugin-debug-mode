@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-debug-mode",
   "version": "0.1.4",
-  "description": "",
+  "description": "It works inside BlockStatements and ClassMethods",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
