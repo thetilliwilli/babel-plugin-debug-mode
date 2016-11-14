@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-debug-mode",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "It works inside BlockStatements and ClassMethods",
   "main": "index.js",
   "scripts": {
