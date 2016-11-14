@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/TilliWilli5/babel-plugin-debug-mode.git"
   },
-  "keywords": [],
+  "keywords": ["babel", "plugin", "debug", "javascript", "js", "compiler", "babel-plugin", "dev", "dev tools"],
   "author": {
     "name": "TilliWilli",
     "email": "tilliwilli@gmail.com",
